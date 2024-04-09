@@ -2,4 +2,7 @@
     <string name="app_name">Happy Donuts</string>
     <string name="main_activity">Main Activity</string>
     <string name="happy_donuts_logo">Happy donuts logo</string>
+    <string name="tv_inicia_sesion">Inicia sesión con una cuenta ya creada</string>
+    <string name="ti_text_registro">Registro</string>
+    <string name="ti_text_login">Login</string>
 </resources>
