@@ -22,11 +22,10 @@
         app:layout_constraintGuide_percent="0.94" />
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/topView"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@drawable/top_layout"
-        android:backgroundTint="@color/pink"
+        android:background="@drawable/login_top_layout"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,9 +34,9 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintBottom_toBottomOf="@+id/topView"
+        app:layout_constraintEnd_toEndOf="@+id/topView"
+        app:layout_constraintStart_toStartOf="@+id/topView"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo"
         android:contentDescription="@string/happy_donuts_logo" />
@@ -51,7 +50,7 @@
         android:backgroundTint="@color/tabBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/topView"
         app:tabIndicator="@drawable/login_tab_indicator"
         app:tabIndicatorAnimationDuration="@android:integer/config_longAnimTime"
         app:tabIndicatorAnimationMode="elastic"
