@@ -70,7 +70,7 @@
         app:tabIndicator="@drawable/tab_indicator"
         app:tabIndicatorFullWidth="true"
         android:background="@drawable/rounded_switch_background"
-        android:backgroundTint="@color/tabBackground"
+        android:backgroundTint="@android:color/system_control_highlight_light"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintRight_toLeftOf="@id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
