@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:tabIndicator="@drawable/tab_indicator"
+        app:tabIndicator="@drawable/login_tab_indicator"
         app:tabIndicatorAnimationDuration="@android:integer/config_longAnimTime"
         app:tabIndicatorAnimationMode="elastic"
         app:tabIndicatorColor="@null"

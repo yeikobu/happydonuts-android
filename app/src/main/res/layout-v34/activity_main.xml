@@ -67,7 +67,7 @@
         app:tabIndicatorColor="@null"
         app:tabSelectedTextColor="@color/white"
         app:tabTextColor="@color/design_default_color_on_secondary"
-        app:tabIndicator="@drawable/tab_indicator"
+        app:tabIndicator="@drawable/login_tab_indicator"
         app:tabIndicatorFullWidth="true"
         android:background="@drawable/rounded_switch_background"
         android:backgroundTint="@android:color/system_control_highlight_light"
