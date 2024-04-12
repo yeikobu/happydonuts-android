@@ -57,7 +57,7 @@
         android:contentDescription="@string/happy_donuts_logo" />
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/login_register_tablayout"
+        android:id="@+id/tabLayout"
         android:layout_width="230dp"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
@@ -65,9 +65,12 @@
         app:tabIndicatorGravity="stretch"
         app:tabIndicatorAnimationMode="elastic"
         app:tabIndicatorColor="@null"
-        app:tabIndicator=""
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/design_default_color_on_secondary"
+        app:tabIndicator="@drawable/tab_indicator"
+        app:tabIndicatorFullWidth="true"
         android:background="@drawable/rounded_switch_background"
-        android:backgroundTint="@color/material_dynamic_neutral95"
+        android:backgroundTint="@color/material_dynamic_neutral_variant95"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintRight_toLeftOf="@id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
@@ -85,22 +88,14 @@
 
     </com.google.android.material.tabs.TabLayout>
 
-    <TextView
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/tv_inicia_sesion"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/material_dynamic_neutral40"
-        android:textSize="24sp"
-        android:textStyle="bold"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintRight_toLeftOf=""
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@id/login_register_tablayout" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
