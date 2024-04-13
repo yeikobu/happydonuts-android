@@ -4,6 +4,8 @@
         android:bottomLeftRadius="30dp"
         android:bottomRightRadius="30dp" />
 
+    <solid android:color="@color/pink" />
+
     <size
-        android:height="150dp"/>
+        android:height="150dp" />
 </shape>

@@ -52,10 +52,10 @@ class MainActivity : AppCompatActivity() {
 
                 if (position == 0) {
                     loginAndRegisterTabLayout.setSelectedTabIndicator(R.drawable.login_tab_indicator)
-                    topView.setBackgroundColor(getColor(R.color.pink))
+                    topView.setBackgroundResource(R.drawable.login_top_layout)
                 } else {
                     loginAndRegisterTabLayout.setSelectedTabIndicator(R.drawable.register_tab_indicator)
-                    topView.setBackgroundColor(getColor(R.color.green))
+                    topView.setBackgroundResource(R.drawable.register_top_layout)
                 }
             }
         })
