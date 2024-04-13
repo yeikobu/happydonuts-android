@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:startIconDrawable="@drawable/email_icon"
-        app:startIconTint="@color/white">
+        app:startIconTint="@color/pink" >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -87,27 +87,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilLoginPassword" />
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/til_icon_background"
-        android:backgroundTint="@color/pink"
-        app:layout_constraintBottom_toBottomOf="@+id/tilLoginEmail"
-        app:layout_constraintStart_toStartOf="@+id/tilLoginEmail"
-        app:layout_constraintTop_toTopOf="@+id/tilLoginEmail" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_weight="1"
-        android:src="@drawable/email_icon"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/tilLoginEmail"
-        app:layout_constraintTop_toTopOf="@+id/view" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
