@@ -10,4 +10,7 @@
     <string name="correo">Correo</string>
     <string name="contrasena">Contraseña</string>
     <string name="olvidaste_tu_cuenta">¿Olvidaste tu cuenta?</string>
+    <string name="registra_una_nueva_cuenta">Registra una nueva cuenta</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="registrar_cuenta">Registrar cuenta</string>
 </resources>
