@@ -49,6 +49,7 @@ class MainActivity : AppCompatActivity() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
                 loginAndRegisterTabLayout.selectTab(loginAndRegisterTabLayout.getTabAt(position))
+
                 if (position == 0) {
                     loginAndRegisterTabLayout.setSelectedTabIndicator(R.drawable.login_tab_indicator)
                     topView.setBackgroundColor(getColor(R.color.pink))
